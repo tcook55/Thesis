@@ -7,6 +7,7 @@ Running DIGITS: docker run --gpus all -it --rm -v ~/Desktop/docker_share:/data/m
 Docker commands
 Show all containers: docker ps -a
 Remove container: docker container rm eed908866b00
+Stop container: docker stop c1ac1842a3ec
 
 Resource
 https://docs.nvidia.com/deeplearning/digits/digits-container-getting-started/index.html
